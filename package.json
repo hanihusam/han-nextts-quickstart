@@ -13,7 +13,7 @@
     "start": "next start",
     "format": "prettier --write \"./**/*.{ts,tsx}\"",
     "lint": "eslint \"**/*.{ts,tsx}\" \"*.config.js\"",
-    "netlify-export": "yarn build && next start",
+    "netlify-export": "yarn build && next export",
     "now-build": "cross-env BUILD_TARGET=serverless next build",
     "test": "npm run type-check && npm run lint",
     "type-check": "tsc --noEmit",
@@ -21,10 +21,12 @@
   },
   "dependencies": {
     "next": "11.1.1",
+    "next-images": "^1.8.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.3",
     "@babel/eslint-plugin": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
     "@netlify/plugin-lighthouse": "^2.1.2",
