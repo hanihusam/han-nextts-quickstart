@@ -16,7 +16,8 @@
     "netlify-export": "yarn build && next export",
     "now-build": "cross-env BUILD_TARGET=serverless next build",
     "test": "npm run type-check && npm run lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "validate": "npm run type-check && npm run lint"
   },
   "dependencies": {
     "next": "11.1.1",
