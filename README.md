@@ -11,6 +11,7 @@ This is an example setup of Next.js building on top of [the official TypeScript 
 ## Deploy
 
 Deploy the example using [Netlify](https://netlify.com)
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f330cc35-8687-4711-960c-55daf4b36b24/deploy-status)](https://app.netlify.com/sites/han-nextts-quickstart/deploys)
 
 ## How to Use
