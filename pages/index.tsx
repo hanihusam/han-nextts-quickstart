@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -55,7 +54,7 @@ const Home: NextPage = () => {
         >
           Powered by{' '}
           <span className={styles.logo}>
-            <Image alt="Vercel Logo" height={16} src="/vercel.svg" width={72} />
+            <img alt="Vercel Logo" height="16px" src="/vercel.svg" width="72px" />
           </span>
         </a>
       </footer>

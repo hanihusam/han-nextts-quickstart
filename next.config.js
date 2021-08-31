@@ -4,9 +4,6 @@ const nextConfig = {
   trailingSlash: true,
   target: 'serverless',
   basePath,
-  images: {
-    loader: 'custom'
-  },
   async headers() {
     return [
       {
